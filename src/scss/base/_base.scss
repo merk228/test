@@ -5,5 +5,35 @@ html {
 body {
   background-color: var(--page-bg);
   color: var(--text-color);
-  font-family: "Montserrat"
+  font-family: "pt", sans-serif;
+  overflow-x: hidden;
+}
+
+:root {
+  --font-family: "pt", sans-serif;
+  --second-family: "ub", sans-serif;
+}
+
+@font-face {
+  font-family: "ub";
+  src: local('ub-regular'),
+    url('../fonts/ub-regular.ttf');
+}
+
+@font-face {
+  font-family: "ub";
+  src: local('ubuntu'),
+    url('../fonts/ofont.ru_Ubuntu.ttf');
+}
+
+@font-face {
+  font-family: "pt-b";
+  src: local('PT_Sans-Caption-Web-Bold'),
+    url('../fonts/PT_Sans-Caption-Web-Bold.ttf');
+}
+
+@font-face {
+  font-family: "pt-reg";
+  src: local('PT_Sans-Caption-Web-Regular'),
+    url('../fonts/PT_Sans-Caption-Web-Regular.ttf');
 }
